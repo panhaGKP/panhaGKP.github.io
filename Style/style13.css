@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: linear-gradient(to right, rgb(223, 147, 147), brown);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top-gradient {
+  position: absolute;
+  background-image: url(../Image/wave2.png);
+  /* border: 1px solid black; */
+  background-repeat: cover;
+  height: 174px;
+  width: 100%;
+  z-index: -20;
+  background-repeat: no-repeat;
+}
+.main-width {
+  width: 1300px;
+  max-width: 80%;
+  height: 100vh;
+  border: 1px solid transparent;
+  margin: 0 auto;
+}
+/* .main-width table td {
+  border: 1px solid yellow;
+} */
+.main-width table {
+  width: 100%;
+  margin-top: 174px;
+  /* border: 1px solid red; */
+}
+.main-width table td.first-column {
+  vertical-align: top;
+  width: 33%;
+}
+.link {
+  vertical-align: top;
+  width: 33%;
+}
+.link ul li {
+  margin: 10px;
+  list-style-type: none;
+  margin-left: 0px;
+}
+.link ul li.home {
+  margin-top: 0px;
+}
+.link ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  border-bottom: 2px solid transparent;
+  transition: 0.4s;
+}
+.link ul li a:hover {
+  border-bottom: 2px solid white;
+  transition: 0.4s;
+}
+.contact .aline {
+  display: flex;
+  margin: 20px 0;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+}
+.aline .icon {
+  margin-right: 10px;
+}
+.aline#first-line {
+  margin-top: 0px;
+}
+div.icon {
+  /* border: 1px solid transparent; */
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(to right, rgb(241, 174, 174), brown);
+}
+
+div.icon i {
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.first-row {
+  letter-spacing: 3px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+h2.logo {
+  font-size: 40px;
+  color: white;
+  letter-spacing: 5px;
+  text-shadow: 3px 5px 5px rgb(206, 182, 182);
+}
+td.first-column {
+  color: white;
+  font-size: 18px;
+}
+td.contact {
+  width: 34%;
+}
+
+div.white-line {
+  margin-top: 50px;
+}
+.footer {
+  color: white;
+  margin-top: 20px;
+  /* border: 1px solid black; */
+  text-align: center;
+}

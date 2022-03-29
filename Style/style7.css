@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.main-width {
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* border: 1px solid blue; */
+  /* background-color: rgba(243, 158, 0, 0.6); */
+  padding: 10px;
+  margin: 20px 0 0;
+}
+.grid-item {
+  /* border: 1px solid blue; */
+  padding: 30px;
+}

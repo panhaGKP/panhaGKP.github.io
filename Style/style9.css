@@ -1,0 +1,36 @@
+.main-width {
+  height: 100vh;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.content div {
+  width: 150px;
+  height: 150px;
+  border: 1px solid transparent;
+}
+.content button {
+  font-size: 20px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgb(75, 163, 235);
+  background-color: rgb(75, 163, 235);
+}
+button.img-rounded {
+  border-radius: 10px;
+}
+button.img-circle {
+  border-radius: 50%;
+}
+button.img-thumbnail {
+  padding: 3px;
+  background-image: linear-gradient(
+      to bottom,
+      rgb(75, 163, 235),
+      rgb(75, 163, 235)
+    ),
+    linear-gradient(to bottom, #ffffffff, #ffffffff);
+  background-clip: content-box, padding-box;
+}

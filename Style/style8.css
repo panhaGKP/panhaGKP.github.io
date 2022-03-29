@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.main-width {
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+  /* border: 2px solid rgb(20, 139, 60); */
+  text-align: right;
+}
+.first-row ul {
+  /* border: 1px solid red; */
+  margin-top: 30px;
+}
+.main-width .first-row ul {
+  list-style: none;
+}
+.main-width .first-row ul {
+  display: inline-flex;
+  text-align: center;
+  /* float: right; */
+}
+.first-row ul li {
+  padding: 10px 30px;
+  border: transparent;
+  margin: 10px 20px 40px;
+  border-radius: 40px;
+  color: white;
+}
+ul li.pease-gradient {
+  background: linear-gradient(to bottom left, orange, rgb(248, 76, 76));
+}
+ul li.purple-gradient {
+  background: linear-gradient(to bottom left, pink, purple, blue);
+}
+ul li.Blue-gradient {
+  background: linear-gradient(to bottom left, rgb(92, 226, 219), blue);
+}
+ul li.Aqua-gradient {
+  background: linear-gradient(
+    80deg,
+    rgb(92, 92, 240),
+    rgb(91, 232, 236),
+    rgb(103, 236, 70)
+  );
+}
+.social {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+  /* border: 2px solid rgb(20, 139, 60); */
+  justify-content: space-between;
+}
+/* .social ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+} */
+.grid-item i {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  /* border: 1px solid green; */
+}
+.grid-item {
+  /* width: 100%; */
+  border: 1px solid transparent;
+  padding: 20px 20px;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 0 5px 5px rgb(197, 193, 193);
+}
+.grid-item#facebook {
+  background: #3b5998;
+  color: white;
+}
+.grid-item#twitter {
+  background: #7bcaee;
+  color: white;
+}
+.grid-item#google {
+  background: #f1332c;
+  color: white;
+}
+.grid-item#linked-in {
+  background: #569bf5;
+  color: white;
+}
+.grid-item#instagram {
+  background: #303fc9;
+  color: white;
+}
+.grid-item#pinterest {
+  background: #c42822;
+  color: white;
+}
+.grid-item#youtube {
+  background: #e75f5f;
+  color: white;
+}
+.grid-item#xbox {
+  background: #f03bc3;
+  color: white;
+}
+.grid-item#overflow {
+  background: #f1742c;
+  color: white;
+}
+.grid-item#envelop {
+  background: #9e9292;
+  color: white;
+}
+.grid-item#discord {
+  background: #5581df;
+  color: white;
+}
+#discord i {
+  position: relative;
+  left: -3px;
+}
+.solid-background {
+  /* border: 1px solid blue; */
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.solid-background table {
+  margin-top: 70px;
+  /* border: 1px solid black; */
+  width: 100%;
+}
+.solid-background table tr td div {
+  margin: 0px 10px;
+  border: 1px solid transparent;
+  padding: 10px 0;
+  border-radius: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 0 2px 5px 2px rgb(189, 183, 183);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.solid-background table tr td div.left {
+  margin-left: -4px;
+}
+.solid-background table tr td div.right {
+  margin-right: -4px;
+}
+#primary {
+  background: rgb(61, 151, 235);
+}
+#default {
+  background: rgb(55, 195, 230);
+}
+#secondary {
+  background: rgb(204, 19, 204);
+}
+#success {
+  background: rgb(15, 190, 15);
+}
+#info {
+  background: rgb(16, 204, 204);
+}
+#warning {
+  background-color: orange;
+}
+#danger {
+  background-color: rgb(233, 47, 72);
+}
+.transparent-background {
+  margin: 50px auto;
+  width: 1200px;
+  max-width: 90%;
+  /* border: 3px solid rgb(147, 13, 173); */
+  box-sizing: border-box;
+}
+
+.transparent-background .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.transparent-background .content a {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: white;
+  padding: 10px 30px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  border-radius: 50px;
+  box-shadow: 0 2px 5px 2px rgb(189, 183, 183);
+}
+.content a#left {
+  margin-left: 0px;
+}
+.content a#right {
+  margin-right: 0px;
+}
+.content a.primary {
+  border: 2px solid rgb(61, 151, 235);
+  color: rgb(61, 151, 235);
+}
+.content a.default {
+  border: 2px solid rgb(55, 195, 230);
+  color: rgb(55, 195, 230);
+}
+.content a.secondary {
+  border: 2px solid rgb(204, 19, 204);
+  color: rgb(204, 19, 204);
+}
+.content a.success {
+  border: 2px solid rgb(15, 190, 15);
+  color: rgb(15, 190, 15);
+}
+.content a.info {
+  border: 2px solid rgb(16, 204, 204);
+  color: rgb(16, 204, 204);
+}
+.content a.warning {
+  border: 2px solid orange;
+  color: orange;
+}
+.content a.danger {
+  border: 2px solid rgb(233, 47, 72);
+  color: rgb(233, 47, 72);
+}

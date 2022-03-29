@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* overflow-x: hidden; */
+  font-family: "Poppins", sans-serif;
+}
+.Main-width {
+  width: 900px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid rgb(233, 224, 224);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 2px 3px 3px rgb(129, 128, 128);
+}
+.Main-width header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+header .btnAdd a {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 30px;
+  background: #4ebad6;
+  color: white;
+  transition: 0.4s;
+  border: 2px solid transparent;
+}
+header .btnAdd a:hover {
+  color: #4ebad6;
+  background: #ffffff;
+  border: 2px solid #4ebad6;
+  transition: 0.4s;
+}
+header .btnAdd {
+  transition: 0.4s;
+}
+header .btnAdd:hover {
+  transition: 0.4s;
+  transform: scale(1.2);
+}
+.btnAdd a i {
+  margin-right: 5px;
+}
+/* table {
+  border-style: ;
+  border: 1px solid black;
+} */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid rgb(168, 165, 165);
+}
+td {
+  padding: 5px 10px;
+}
+td.icons a i {
+  padding: 0 10px;
+}
+td.icons {
+  text-align: center;
+}
+th,
+td {
+  border: 2px solid rgb(209, 203, 203);
+}
+.pen {
+  color: orange;
+}
+.pen i {
+  transition: 0.4s;
+}
+.pen i:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+.bin {
+  color: red;
+}
+.bin i {
+  transition: 0.4s;
+}
+.bin i:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 200;
+}
+h1 span {
+  font-weight: 800;
+}

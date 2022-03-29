@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(71, 69, 69);
+}
+.main-width {
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+.main-content {
+  margin-top: 40px;
+  /* border: 2px solid purple; */
+  display: flex;
+}
+.poster {
+  width: 40%;
+  /* border: 1px solid green; */
+}
+.poster img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+div.content-description {
+  width: 100%;
+  color: white;
+  margin-left: 20px;
+  /* border: 2px solid blue; */
+}
+div.content-description .title {
+  font-family: "CADT Mono Display", sans-serif, serif;
+  font-size: 40px;
+  /* border: 1px solid white; */
+}
+span {
+  font-family: "Poppins", sans-serif;
+}
+div#version-age-duration {
+  color: rgb(134, 128, 128);
+  justify-content: space-between;
+  display: flex;
+  text-align: justify;
+  width: 40%;
+  /* border: 1px solid white; */
+  font-size: 30px;
+}
+div.subtitle {
+  margin-top: 20px;
+  /* border: 2px solid red; */
+
+  width: 100%;
+}
+div.subtitle p {
+  padding: 20px;
+  text-align: justify;
+  font-size: 35px;
+  border: 1px solid rgb(63, 63, 63);
+  box-shadow: 3px 3px 4px rgb(128, 123, 123), -3px -3px 4px rgb(128, 123, 123);
+  border-radius: 20px;
+}
+div.btn {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid white; */
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 40px;
+}
+div.btn a {
+  text-decoration: none;
+  color: rgb(184, 178, 178);
+  font-size: 30px;
+  transition: 0.4s;
+}
+i {
+  margin-right: 10px;
+}
+div.btn div a:hover {
+  color: white;
+}
+div.btn div {
+  transition: 0.4s;
+}
+div.btn div:hover {
+  transition: 0.4s;
+  transform: scale(1.2);
+}
+.play a i {
+  background-color: white;
+}
+.play a:hover i {
+  background-color: transparent;
+}
+div .btn .play a {
+  border: 2px solid white;
+  padding: 0 30px;
+  color: black;
+  background-color: white;
+  border-radius: 40px;
+}
+div .btn .play a:hover {
+  background-color: transparent;
+}

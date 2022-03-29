@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.main-width {
+  /* border: 3px solid red; */
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+  height: 100vh;
+}
+.content {
+  display: flex;
+  text-align: center;
+  padding: 40px 0px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* border: 1px solid black; */
+  /*-------------*/
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content div.first-row i {
+  border: 1px solid purple;
+}
+.content div.first-row .icon {
+  margin-bottom: 20px;
+  background-color: purple;
+  border: 1px solid purple;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* text-align: center; */
+  width: 60px;
+  height: 60px;
+  box-shadow: 3px 3px 4px rgb(180, 177, 177);
+}
+.content div.first-row .icon i {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* margin-top: 50%; */
+  /* border: 1px solid red; */
+}
+.content div.second-row h2 {
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+.content div.third-row {
+  padding: 0 20px;
+}
+.content div.fourth-row {
+  display: flex;
+  align-items: center;
+}
+.content div.fourth-row#service a {
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 40px;
+  text-align: center;
+  border: 2px solid transparent;
+  padding: 10px 40px;
+  /* width: 40%; */
+  /* max-width: 40%; */
+  height: auto;
+  border-radius: 40px;
+  background: linear-gradient(
+    to right,
+    rgb(236, 182, 236),
+    purple,
+    rgb(236, 182, 236)
+  );
+  background-color: purple;
+  color: white;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.content div.fourth-row#service a:hover {
+  color: purple;
+  background: white;
+  border: 2px solid purple;
+  transition: 0.4s;
+}

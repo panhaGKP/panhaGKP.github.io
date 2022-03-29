@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-boxs;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(../Image/Angkor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: green; */
+}
+.main-width {
+  position: relative;
+  width: 1000px;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  /* border: 1px solid red; */
+  height: 90vh;
+  z-index: 3;
+}
+.main-width .content {
+  /* border: 1px solid blue; */
+  width: 100%;
+  margin-top: 50px;
+}
+.content nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100;
+  /* border: 1px solid purple; */
+  list-style-type: none;
+}
+.content nav ul li a {
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.content nav ul li {
+  border-bottom: 2px solid transparent;
+}
+.content nav ul li:not(:first-child):hover {
+  border-bottom: 2px solid white;
+}
+.top-gradient {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  top: 0;
+  left: 0;
+  /* border: 1px solid red; */
+  background: linear-gradient(to bottom, rgb(39, 167, 39), transparent);
+  z-index: 2;
+}
+.content nav ul li a.home {
+  border: 2px solid #050;
+  padding: 10px 20px;
+  background-color: #050;
+  color: white;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+.content nav ul li a.home:hover {
+  background-color: white;
+  color: green;
+  border: 2px solid rgb(56, 228, 56);
+  transition: 0.4s;
+}
+.content nav ul li a {
+  color: white;
+}
+.content nav ul li a i {
+  margin-right: 10px;
+}
+.middle {
+  margin-top: 10%;
+  /* border: 1px solid yellow; */
+  color: white;
+}
+.middle .welcome {
+  font-size: 20px;
+  font-weight: 600;
+}
+.middle .big-letter {
+  margin: 30px 0;
+  line-height: 1;
+  width: 70%;
+  font-weight: 600;
+  font-size: 60px;
+}
+.middle .btn a {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 40px;
+  border: 2px solid white;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: rgb(53, 187, 53);
+  background-color: white;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+.middle .btn a:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+  background-color: green;
+  color: white;
+  border: 1px solid rgb(72, 247, 72);
+}
+.bottom-gradient {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70%;
+  /* border: 5px solid black; */
+  margin: 0;
+  background: linear-gradient(to top, green, transparent);
+}
